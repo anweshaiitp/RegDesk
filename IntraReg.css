@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 Dec, 2014, 11:46:53 AM
+    Author     : aadi
+*/
+body{
+    text-align: center;
+    font-family: monospace;
+    color : blue;
+    line-height: 2.5em;
+    background-color: #1888f1;
+/*    alignment-adjust: middle;*/
+}
+h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-size : 50px;
+    border-bottom: thin dotted whitesmoke;
+}
+.Err{
+    font-family: serif;
+    color: #FF0000;
+    font-size: 0.9em;
+    font-style: italic;
+}
+label{
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+form{
+    
+    overflow: hidden;
+    width: 40%;
+    text-align : left;
+    margin: auto;
+    border-color: black;
+    border-width: 1px;
+    border-style: groove;
+    background-color: yellow;
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /*font-style: italic;*/
+}
+
+input{
+    width: 30%;
+    height: 20px;
+    font-size: 1.1em;
+}
+select{
+    font-size: 1.1em;
+}
+Mobile{
+    size: 10px;
+}
+
+input[type="submit"],input[type="reset"] {
+    height: 30px;
+    width : 30%;
+    font-weight: bold;
+    margin-top: 4.5%;
+}
+input[type="submit"]{
+    margin-left: 10%;
+}
+#ID{
+    background-color: black;
+    color: red;
+}
