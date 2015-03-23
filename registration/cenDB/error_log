@@ -1,0 +1,13 @@
+[26-Jan-2015 17:02:38 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '}' in /home/anwesha/public_html/form/registration/cenDB/Login.php on line 11
+[26-Jan-2015 17:02:54 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '}' in /home/anwesha/public_html/form/registration/cenDB/Login.php on line 11
+[26-Jan-2015 17:03:32 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '}' in /home/anwesha/public_html/form/registration/cenDB/Login.php on line 11
+[26-Jan-2015 17:41:13 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '}' in /home/anwesha/public_html/form/registration/cenDB/Login.php on line 11
+[26-Jan-2015 17:42:24 Asia/Kolkata] PHP Warning:  require(csrf.php): failed to open stream: No such file or directory in /home/anwesha/public_html/form/registration/cenDB/Login.php on line 4
+[26-Jan-2015 17:42:24 Asia/Kolkata] PHP Warning:  require(csrf.php): failed to open stream: No such file or directory in /home/anwesha/public_html/form/registration/cenDB/Login.php on line 4
+[26-Jan-2015 17:42:24 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required 'csrf.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/anwesha/public_html/form/registration/cenDB/Login.php on line 4
+[26-Jan-2015 20:25:26 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$eveID' (T_VARIABLE) in /home/anwesha/public_html/form/registration/cenDB/download.php on line 13
+[26-Jan-2015 20:26:14 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$eveID' (T_VARIABLE) in /home/anwesha/public_html/form/registration/cenDB/download.php on line 13
+[26-Jan-2015 21:37:57 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/anwesha/public_html/form/registration/cenDB/Function.php on line 5
+[27-Jan-2015 02:13:32 Asia/Kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home/anwesha/public_html/form/registration/cenDB/display.php on line 11
+[27-Jan-2015 10:22:31 Asia/Kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home/anwesha/public_html/form/registration/cenDB/display.php on line 11
+[27-Jan-2015 21:17:50 Asia/Kolkata] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/anwesha/public_html/form/registration/cenDB/Function.php on line 5

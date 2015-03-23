@@ -1,0 +1,19 @@
+#unipf.a:link{
+	color: blue;
+}
+#unipf.a:visited{
+	color: blue;
+}
+#unipf.a:active{
+	color: blue;
+}
+#unipf.a:hover{
+	color: red;
+}
+   /*html { 
+  background: url(../1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/

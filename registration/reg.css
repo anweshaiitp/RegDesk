@@ -1,0 +1,221 @@
+@font-face{
+    font-family: new;
+    src:url('../assets/fonts/new.ttf');
+}
+@font-face{
+    font-family: bodyfont;
+    /*src:url('../fonts/AgencyFB.ttf');*/
+    src:url('../assets/fonts/Modeka.otf');
+}
+@font-face{
+    font-family:h2;
+    src:url('../assets/fonts/h2.otf');
+}
+@import url('../assets/css/bootstrap.css');
+body{
+    background: #f7fbfc; /* Old browsers */
+background: -moz-linear-gradient(top,  #f7fbfc 0%, #d9edf2 40%, #add9e4 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7fbfc), color-stop(40%,#d9edf2), color-stop(100%,#add9e4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
+
+    height:100%;
+	font-family: bodyfont;
+	padding: 1em;
+
+}
+html{
+    height:100%;
+}
+.pic{
+	font-size: 100%;
+	width: 50%;
+}
+.but{
+	font-size: 100%;
+	border: 0;
+	padding: 0.5em;
+	border-radius: 2px;
+	background: #166f97;
+	color: #ffffff;
+	
+	margin:5px;
+	margin:0 auto;
+	display:block;
+    
+}
+.but:hover{
+	background: #8ab7cb;
+}
+input,textarea{
+	font-family: Arial;
+	font-size: 1px;
+	color:#548acd;
+}
+.box{
+	position: absolute;
+	padding: 1em;
+	margin: 1em;
+	left: 50%;
+	-ms-transform: translate(-50%,0); /* IE 9 */
+	-webkit-transform: translate(-50%,0); /* Chrome, Safari, Opera */
+	transform: translate(-50%,0);
+	background: rgba(255,255,255,0.85);
+	border-radius:0.3em;
+	width:50%;
+}
+h1{
+	text-align:center;
+	color:#513515;
+	font-size: 2.6em;
+	color:black;
+	/*line-height:50%;*/
+}
+h2{
+	text-align:center;
+	color:#513515;
+	font-size:2em;
+	line-height:50%;
+}
+
+#bottom {
+	background: radial-gradient(#000 15%, transparent 16%) 0 0, 
+			radial-gradient(#000 15%, transparent 16%) 8px 8px, 
+			radial-gradient(rgba(255,255,255,0.1) 15%, transparent 20%) 0 1px, 
+			radial-gradient(rgba(255,255,255,0.1) 15%, transparent 20%) 8px 9px;
+	background-color: #500505;
+	background-size: 16px 16px;
+	color: #bbb;
+	font-family:bebas;
+	padding:0.5%;
+	position: fixed;
+	bottom:2%;
+	left:80%;
+	right:2%;
+	text-align:center;
+	border-radius:5px;
+	border: 2px solid #6a6a6a;
+}
+.entry{
+	margin:5px;
+
+}
+.entry label{
+	float:left;
+	line-height:40px;
+	width:100px;
+}
+.sel{
+	text-align:center;
+	margin:3px 0 3px 0;
+}
+#bottom #contact {
+	font-size: 0.7em;
+}
+
+/* Basic Grey */
+.basic-grey {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font: 16px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+    font-weight:bold;
+}
+.basic-grey h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #888;
+}
+.basic-grey h1>span {
+    display: block;
+    font-size: 14px;
+}
+.basic-grey label {
+    display: block;
+    margin: 0px;
+}
+.basic-grey label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select, .basic-grey input[type="tel"], .basic-grey input[type="password"] {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+    	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.basic-grey input:focus {
+border: 1px solid #09C;
+box-shadow: 0px 0px 4px #09C;
+    -moz-box-shadow: 0px 0px 4px #09C;
+    -webkit-box-shadow: 0px 0px 4px #09C;
+}
+.basic-grey textarea{
+    padding: 5px 3px 3px 5px;
+}
+.basic-grey select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right;
+    /*appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;*/
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height: 25px;
+}
+.basic-grey textarea{
+    height:100px;
+}
+.basic-grey .button {
+    background: #E27575;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+
+}
+.basic-grey .button:hover {
+    background: #CF7A7A
+}
+.basic-grey .captcha{
+    margin-left:20%;
+}
+.Err{
+color:red;
+}    
+#bottom a:visited,#bottom a:link{
+color:#bbb;
+}

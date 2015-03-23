@@ -1,0 +1,106 @@
+@font-face{
+    font-family: new;
+    src:url('../assets/fonts/new.ttf');
+}
+@font-face{
+    font-family: bodyfont;
+    /*src:url('../fonts/AgencyFB.ttf');*/
+    src:url('../assets/fonts/Modeka.otf');
+}
+@font-face{
+    font-family:h2;
+    src:url('../assets/fonts/h2.otf');
+}
+html{
+	height:100%;
+}
+body{
+	font-family: bodyfont;
+	padding: 0em;
+	height:100%;
+}
+h1{
+	text-align:center;
+	font-size: 45px;
+	color:white;
+}
+#SideBar{
+	width:100%;
+	position:absolute;
+	margin-top:2px;
+	padding:2px;
+	top:0;
+	font-size:22px;
+}
+#SideBar .anwid{
+	margin:4px 0;
+	line-height:1;
+	float:left;
+	padding:5px;
+	background:#eeeeee;
+	margin:4px;
+	box-shadow: 3px 3px 3px #dddddd;
+}
+#SideBar .links{
+	float:right;
+
+}
+#SideBar span{
+	font-size:20px;
+	padding:3px 0;
+	display:block;
+}
+#Events{
+	max-width: 500px;
+    background: #F7F7F7;
+    padding: 15px 15px 15px 10px;
+    font: 20px Arial;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+    width:50%;
+    margin:50px auto;
+
+}
+#Events h3{
+	margin:4px 0;
+	font-size:28px;
+	
+}
+#Events ul{
+	font-size:17px;
+
+}
+#Events .names li{
+color:#e25d33;
+}
+#Events .subEvents > ul >li {
+color:#58A3FF;
+}
+#bottom #contact {
+	font-size: 0.7em;
+}
+#Events button{
+	margin:0 5px;
+}
+#bottom {
+	background: radial-gradient(#000 15%, transparent 16%) 0 0, 
+			radial-gradient(#000 15%, transparent 16%) 8px 8px, 
+			radial-gradient(rgba(255,255,255,0.1) 15%, transparent 20%) 0 1px, 
+			radial-gradient(rgba(255,255,255,0.1) 15%, transparent 20%) 8px 9px;
+	background-color: #500505;
+	background-size: 16px 16px;
+	color: #bbb;
+	font-family:bebas;
+	padding:0.5%;
+	position: fixed;
+	bottom:2%;
+	left:80%;
+	right:2%;
+	text-align:center;
+	border-radius:5px;
+	border: 2px solid #6a6a6a;
+}
+#bottom a:visited{
+color:#bbb;
+}

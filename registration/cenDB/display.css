@@ -1,0 +1,23 @@
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+}
+table {
+  border-spacing: 0.5rem;
+}
+th {
+  background: black;
+  color: white;
+  border-color: white;
+}
+body{
+padding : 2rem;
+}
+.even{
+	background-color: orange;
+	color: black;
+}
+.odd{
+	background-color: yellow;
+	color: black;
+}
