@@ -34,9 +34,6 @@ if(isset($_POST['submit'])){
 		$IErr = 'Invalid ID';
 	}
 	// echo 'reached 3';
-	if($ID == '1314'){
-		$IErr = 'Rahul u can\'t change your password. It will remain BhooSheruBhoo';
-	}
 	if($CErr == '' && $IErr == ''){
 		// require ('dbcon.php');
 		$sql = "SELECT COUNT(*) FROM LoginTable WHERE ID = $ID";
